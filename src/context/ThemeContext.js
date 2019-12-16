@@ -15,7 +15,7 @@ class ThemeContextProvider extends Component {
     return (
       <ThemeContext.Provider value={{ ...this.state, toggleTheme: this.toggleTheme}}>{/* passing function and values */}
         {this.props.children}
-        {/* refers to the childred wrapped in ThemeContext */}
+        {/* refers to the children wrapped in ThemeContext */}
       </ThemeContext.Provider>
     );
   }
